@@ -19,6 +19,9 @@ Repository-wide Operator product knowledge published with the project.
 - `reference/implementation.md`
   - Description: Complete adapter contract every harness adapter must satisfy, plus the accepted reference implementation shapes: resolution and injection pathways, failure semantics, commands, status, installation, and runtime shape.
   - Read If: Implementing or reviewing any harness adapter.
+- `reference/guides.md`
+  - Description: Harness guide standard — implementation relevance and completeness requirements, source-over-docs verification, verification-notes placement, privacy boundaries, and maintenance rules for `.operator-shared/guides/<harness>/`.
+  - Read If: Writing or reviewing any harness guide.
 - `reference/release.md`
   - Description: Contributor checklist for shipping an adapter package — package shape, Helper integration, documentation, and release automation. Maintainer release duties live in the private partition.
   - Read If: Shipping an adapter package or cutting a first release.
@@ -52,6 +55,9 @@ Repository-wide Operator product knowledge published with the project.
 
 ### `guides/`
 
+- `antigravity/`
+  - Description: Google Antigravity native reference guides — packaging/install, hook API/runtime/identity, dedicated injection/compaction guide, delegation, and workflow skills; authoritative behavior first, verification notes below.
+  - Read If: Preparing or implementing Antigravity support, assessing model/subagent injection, or checking native plugin installation and command behavior.
 - `effect.md`
   - Description: Effect v4 and effect-smol source, implementation, and testing guidance.
   - Read If: Working with Effect v4 or effect-smol TypeScript code.
